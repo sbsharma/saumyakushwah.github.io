@@ -25,9 +25,7 @@ export default function FloatingButton() {
 
   return (
     <>
-      <div
-        className="floating-button"
-      >
+      <div className="floating-button">
         {/* <button className="logo" onClick={toggleCollapse}>
         <img src="/sidebar_logo.png" alt="sidebar" className="logo-img" />
       </button> */}
@@ -54,7 +52,7 @@ export default function FloatingButton() {
                   Product <RightOutlined className="list_icon" />
                 </li>
               </a>
-              <a href="/pricing">
+              <a href="/#pricing">
                 <li className="sidenav_list">Pricing</li>
               </a>
               <a>
@@ -62,7 +60,7 @@ export default function FloatingButton() {
                   Resources <RightOutlined className="list_icon" />
                 </li>
               </a>
-              <a href="/customers">
+              <a href="/#customers">
                 <li className="sidenav_list">Customers</li>
               </a>
               <a>
@@ -70,7 +68,7 @@ export default function FloatingButton() {
                   Company <RightOutlined className="list_icon" />
                 </li>
               </a>
-              <a href="/prepaidcards">
+              <a href="/#prepaidcards">
                 <li className="sidenav_list">Pre-paid card</li>
               </a>
             </div>
@@ -111,14 +109,14 @@ export default function FloatingButton() {
           >
             <Row>
               <Col xs={2} sm={4} md={6} lg={14} xl={12}>
-                <a href="/coupons">
+                <a href="/#coupons">
                   <div
                     style={{
                       display: "flex",
                       verticalAlign: "middle",
                       cursor: "pointer",
                     }}
-                    href="/coupons"
+                    href="/#coupons"
                   >
                     <img src="/sn01.png" alt="" className="sn-icons" />
                     <Title level={5} className="sn-box-links">
@@ -128,7 +126,7 @@ export default function FloatingButton() {
                 </a>
               </Col>
               <Col xs={2} sm={4} md={6} lg={14} xl={12}>
-                <a href="/loyalty">
+                <a href="/#loyalty">
                   <div
                     style={{
                       display: "flex",
@@ -146,7 +144,7 @@ export default function FloatingButton() {
             </Row>
             <Row>
               <Col xs={2} sm={4} md={6} lg={14} xl={12}>
-                <a href="/giftcards">
+                <a href="/#giftcards">
                   <div
                     style={{
                       display: "flex",
@@ -162,7 +160,7 @@ export default function FloatingButton() {
                 </a>
               </Col>
               <Col xs={2} sm={4} md={6} lg={14} xl={12}>
-                <a href="/digitalwallets">
+                <a href="/#digitalwallets">
                   <div
                     style={{
                       display: "flex",
@@ -180,7 +178,7 @@ export default function FloatingButton() {
             </Row>
             <Row>
               <Col xs={2} sm={4} md={6} lg={14} xl={12}>
-                <a href="/geofencing">
+                <a href="/#geofencing">
                   <div
                     style={{
                       display: "flex",
@@ -196,7 +194,7 @@ export default function FloatingButton() {
                 </a>
               </Col>
               <Col xs={2} sm={4} md={6} lg={14} xl={12}>
-                <a href="/referralprograms">
+                <a href="/#referralprograms">
                   <div
                     style={{
                       display: "flex",
@@ -214,7 +212,7 @@ export default function FloatingButton() {
             </Row>
             <Row>
               <Col xs={2} sm={4} md={6} lg={14} xl={12}>
-                <a href="/analytics">
+                <a href="/#analytics">
                   <div
                     style={{
                       display: "flex",
@@ -230,7 +228,7 @@ export default function FloatingButton() {
                 </a>
               </Col>
               <Col xs={2} sm={4} md={6} lg={14} xl={12}>
-                <a href="/productbundling">
+                <a href="/#productbundling">
                   <div
                     style={{
                       display: "flex",

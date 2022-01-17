@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Test from "./components/Test";
 import "antd/dist/antd.css";
