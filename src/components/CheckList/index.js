@@ -9,7 +9,7 @@ export default function CheckList() {
       <Title className="checklist-heading">
         Create your <span style={{ color: "#F9A802" }}>Custom API</span>
       </Title>
-      <br/>
+      <br />
       <Row>
         <Col xs={10} sm={12} md={12} lg={5} xl={5}>
           <div style={{ display: "flex", margin: "10px 0" }}>

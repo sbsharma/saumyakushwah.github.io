@@ -15,7 +15,12 @@ export default function CustomersLayout() {
     <>
       <Banner />
       <FloatingButton />
-      <div style={{ backgroundColor: "#2C1f53", padding: "120px 100px 20px 100px" }}>
+      <div
+        style={{
+          backgroundColor: "#2C1f53",
+          padding: "120px 100px 20px 100px",
+        }}
+      >
         <CompOne />
       </div>
       <CompTwo
@@ -30,7 +35,12 @@ export default function CustomersLayout() {
         subText02="Location"
         subText03="Solution"
       />
-      <div style={{ backgroundColor: "#2C1f53", padding: "120px 100px 20px 100px" }}>
+      <div
+        style={{
+          backgroundColor: "#2C1f53",
+          padding: "120px 100px 20px 100px",
+        }}
+      >
         <CompThree />
       </div>
       <div style={{ backgroundColor: "#2C1F53" }}>

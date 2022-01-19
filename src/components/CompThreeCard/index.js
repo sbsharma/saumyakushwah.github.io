@@ -2,17 +2,22 @@ import { Card, Typography } from "antd";
 const { Meta } = Card;
 const Title = Typography;
 
-export default function CompThreeCard({cardImg}) {
+export default function CompThreeCard({ cardImg }) {
   return (
     <div>
       <Card
         hoverable
-        style={{ width: 400, borderRadius:'20px' }}
+        style={{ width: 400, borderRadius: "20px" }}
         cover={
           <img
             alt="example"
             src={cardImg}
-            style={{ width: "400px", height: "257px", objectFit: "cover", borderRadius:'20px 20px 0 0'  }}
+            style={{
+              width: "400px",
+              height: "257px",
+              objectFit: "cover",
+              borderRadius: "20px 20px 0 0",
+            }}
           />
         }
       >

@@ -95,7 +95,7 @@ export default function CouponLayout() {
           <ThirdGrid
             title={
               <>
-                Distribute via 
+                Distribute via
                 <span style={{ color: "#F9A802" }}> multiple channels</span>
               </>
             }
@@ -108,8 +108,9 @@ export default function CouponLayout() {
             }
             titleImg="/cc.png"
           />
-          </div></div>
-          <div style={{ backgroundColor: "#2C1F53" }}>
+        </div>
+      </div>
+      <div style={{ backgroundColor: "#2C1F53" }}>
         <QuesComp
           ques="Are you burning money & wasting time on digital promotions?"
           quesPara="It’s time to change"
@@ -117,14 +118,14 @@ export default function CouponLayout() {
         />
       </div>
       <div className="sales-promotion-class">
-          <SalesPromotion
-            header={
-              <div style={{ textAlign: "center" }}>
-                One solution for every problem:
-                <span style={{ color: "#F9A802" }}> MeriBachat</span>
-              </div>
-            }
-          />
+        <SalesPromotion
+          header={
+            <div style={{ textAlign: "center" }}>
+              One solution for every problem:
+              <span style={{ color: "#F9A802" }}> MeriBachat</span>
+            </div>
+          }
+        />
       </div>
     </>
   );

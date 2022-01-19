@@ -6,37 +6,61 @@ const { Title } = Typography;
 
 export default function Algorithm({ reverse = false }) {
   return (
-    <div className="algorithm-section"> 
+    <div className="algorithm-section">
       <Row>
-        <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} order={reverse ? 1 : 0}>
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 12 }}
+          md={{ span: 12 }}
+          lg={{ span: 12 }}
+          xl={{ span: 12 }}
+          order={reverse ? 1 : 0}
+        >
           <div style={{ margin: reverse ? "100px 0 0 0px" : "100px 70px 0 0" }}>
             <Title level={3} style={{ color: "#F9A802" }} className="algo-step">
               Step 1 :
             </Title>
-            <Title level={2} style={{ color: "#fff" }} className="algo-step-name">
+            <Title
+              level={2}
+              style={{ color: "#fff" }}
+              className="algo-step-name"
+            >
               Build & manage your sale promotion campaign
             </Title>
-            <Title level={4} style={{ color: "#fff" }} className="algo-step-para">
+            <Title
+              level={4}
+              style={{ color: "#fff" }}
+              className="algo-step-para"
+            >
               Promotion strategy campaigns need not always be just the marketing
               campaigns you run. It can be a campaign to identify the aspects of
               change and development
             </Title>
           </div>
         </Col>
-        <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} >
-          <img
-            src="/step1.png"
-            alt="algo"
-            className="algo-img"
-          />
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 12 }}
+          md={{ span: 12 }}
+          lg={{ span: 12 }}
+          xl={{ span: 12 }}
+        >
+          <img src="/step1.png" alt="algo" className="algo-img" />
         </Col>
       </Row>
-      <br /> 
+      <br />
       <br />
       <br />
       <br />
       <Row>
-        <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} order={reverse ? 0 : 1}>
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 12 }}
+          md={{ span: 12 }}
+          lg={{ span: 12 }}
+          xl={{ span: 12 }}
+          order={reverse ? 0 : 1}
+        >
           <div
             style={{ margin: reverse ? "100px 0 0 0px" : "100px 0px 0 70px" }}
           >
@@ -52,12 +76,14 @@ export default function Algorithm({ reverse = false }) {
             </Title>
           </div>
         </Col>
-        <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} >
-          <img
-            src="/step2.png"
-            alt="algo"
-            className="algo-img"
-          />
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 12 }}
+          md={{ span: 12 }}
+          lg={{ span: 12 }}
+          xl={{ span: 12 }}
+        >
+          <img src="/step2.png" alt="algo" className="algo-img" />
         </Col>
       </Row>
       <br />
@@ -65,7 +91,13 @@ export default function Algorithm({ reverse = false }) {
       <br />
       <br />
       <Row>
-        <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} >
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 12 }}
+          md={{ span: 12 }}
+          lg={{ span: 12 }}
+          xl={{ span: 12 }}
+        >
           <div style={{ margin: "100px 70px 0 0" }}>
             <Title level={3} style={{ color: "#F9A802" }}>
               Step 3 :
@@ -79,12 +111,14 @@ export default function Algorithm({ reverse = false }) {
             </Title>
           </div>
         </Col>
-        <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} >
-          <img
-            src="/step3.png"
-            alt="algo"
-            className="algo-img"
-          />
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 12 }}
+          md={{ span: 12 }}
+          lg={{ span: 12 }}
+          xl={{ span: 12 }}
+        >
+          <img src="/step3.png" alt="algo" className="algo-img" />
         </Col>
       </Row>
       <br />
@@ -92,7 +126,14 @@ export default function Algorithm({ reverse = false }) {
       <br />
       <br />
       <Row>
-        <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} order={reverse ? 0 : 1}>
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 12 }}
+          md={{ span: 12 }}
+          lg={{ span: 12 }}
+          xl={{ span: 12 }}
+          order={reverse ? 0 : 1}
+        >
           <div
             style={{ margin: reverse ? "100px 0 0 0px" : "100px 0px 0 70px" }}
           >
@@ -108,12 +149,14 @@ export default function Algorithm({ reverse = false }) {
             </Title>
           </div>
         </Col>
-        <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} >
-          <img
-            src="/step4.png"
-            alt="algo"
-            className="algo-img"
-          />
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 12 }}
+          md={{ span: 12 }}
+          lg={{ span: 12 }}
+          xl={{ span: 12 }}
+        >
+          <img src="/step4.png" alt="algo" className="algo-img" />
         </Col>
       </Row>
       <br />
@@ -121,7 +164,13 @@ export default function Algorithm({ reverse = false }) {
       <br />
       <br />
       <Row>
-        <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} >
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 12 }}
+          md={{ span: 12 }}
+          lg={{ span: 12 }}
+          xl={{ span: 12 }}
+        >
           <div style={{ margin: "100px 70px 0 0" }}>
             <Title level={3} style={{ color: "#F9A802" }}>
               Step 5 :
@@ -136,12 +185,14 @@ export default function Algorithm({ reverse = false }) {
             </Title>
           </div>
         </Col>
-        <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} >
-          <img
-            src="/step5.png"
-            alt="algo"
-            className="algo-img"
-          />
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 12 }}
+          md={{ span: 12 }}
+          lg={{ span: 12 }}
+          xl={{ span: 12 }}
+        >
+          <img src="/step5.png" alt="algo" className="algo-img" />
         </Col>
       </Row>
       <br />
@@ -149,7 +200,14 @@ export default function Algorithm({ reverse = false }) {
       <br />
       <br />
       <Row>
-        <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} order={reverse ? 0 : 1}>
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 12 }}
+          md={{ span: 12 }}
+          lg={{ span: 12 }}
+          xl={{ span: 12 }}
+          order={reverse ? 0 : 1}
+        >
           <div
             style={{ margin: reverse ? "100px 0 0 0px" : "100px 0px 0 70px" }}
           >
@@ -165,12 +223,14 @@ export default function Algorithm({ reverse = false }) {
             </Title>
           </div>
         </Col>
-        <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} >
-          <img
-            src="/step6.png"
-            alt="algo"
-            className="algo-img"
-          />
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 12 }}
+          md={{ span: 12 }}
+          lg={{ span: 12 }}
+          xl={{ span: 12 }}
+        >
+          <img src="/step6.png" alt="algo" className="algo-img" />
         </Col>
       </Row>
     </div>
